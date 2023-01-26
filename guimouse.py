@@ -14,10 +14,10 @@ def Calerder():
 def Google():
     webbrowser.open('https://www.google.com')
 
-B1 = Button(GUI,text='Calender1',command=Calerder)
+B1 = Button(GUI,text='Calender0',command=Calerder)
 B1.pack(ipadx=20, ipady=10, pady=20)
 
-B2 = ttk.Button(GUI,text='Calender2',command=Calerder)
+B2 = ttk.Button(GUI,text='Calender1',command=Calerder)
 B2.pack(ipadx=20, ipady=10, pady=20)
 
 B3 = ttk.Button(GUI,text='Google',command=Google)
